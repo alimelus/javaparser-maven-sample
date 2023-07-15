@@ -25,6 +25,7 @@ pipeline {
   post {
     failure {
       mail to: priyas.tecno@gmail.com, subject: ‘The Pipeline failed :(‘
+                                                                       )
     }
   }
 }
