@@ -2,7 +2,7 @@ pipeline {
   agent {
         label 'java_node'
     }
-}
+
      tools { 
         maven 'MAVEN' 
         }
@@ -23,3 +23,5 @@ pipeline {
         
             }
             }
+}
+
