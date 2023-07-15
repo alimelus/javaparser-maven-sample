@@ -1,6 +1,5 @@
 pipeline {
   agent {
-    node {
         label 'java_node'
     }
 }
@@ -24,4 +23,3 @@ pipeline {
         
             }
             }
-}
